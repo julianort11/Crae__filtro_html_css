@@ -229,17 +229,18 @@ main{
 }
 /*********** apoyanos *************/
 .article__apoyanos {
-    background: palegreen;
+    /* background: palegreen; */
     padding: 20px;
+    padding-top: 100px;
     height: 508px;
 }
 .section__apoyanos {
-    background: blue;
+    /* background: blue; */
     display: flex;
     justify-content: space-between;
 }
 .div__apoy-inf {
-    background: green;
+    /* background: green; */
     width: 755px;
     height: 336px;
     display: flex;
@@ -255,7 +256,7 @@ main{
     font-size: 36px;
 }
 .img__botton {
-    background: red;
+    /* background: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -268,7 +269,7 @@ main{
     height: 305px;
 }
 .botton {
-    background: greenyellow;
+    background: var(--color-2);
     width: 282px;
     height: 57px;
     border-radius: 32.5px;
@@ -279,4 +280,61 @@ main{
 .botton h4{
     font-family: "Roboto_Bold";
     font-size: 36px;
+    color: var(--color-1);
+}
+/***********about***************/
+.article__about {
+    /* background: red; */
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-top: 154px; 
+}
+.section__about {
+    /* background: green; */
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+}
+.div__about-inf {
+    /* background: pink; */
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    width: 713px;
+    height: 660px;
+}
+.div__about-inf h2{
+    font-family: "Roboto_Bold";
+    font-size: 72px;
+}
+.div__about-inf span{
+    font-family: "Roboto_Regular";
+    font-size: 36px;
+}
+.img__aqua {
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.img {
+    /* background: yellowgreen; */
+
+}
+.aqua {
+    /* background: yellow; */
+    width: 295px;
+    height: 92px;
+    display: flex;
+    align-items: baseline;
+    font-family: "Roboto_Regular";
+    font-size: 96px;
+}
+.aqua img{
+    width: 82px;
+    height: 80px;
 }
