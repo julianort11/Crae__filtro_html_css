@@ -6,7 +6,7 @@
 }
 header{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* background: blue; */
 }
 .case__aqua {
@@ -20,35 +20,45 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5px;
+    gap: 12px;
 }
 .case__aqua h2{
     color: var(--color-1);
     font-family: "Roboto_Regular";
+    font-size: 48px;
+    font-weight: 100;
 }
 .gota{
     /* background: red; */
 }
 .navegacion {
-    background: red;
+    /* background: red; */
     width: 732px;
     height: 38px;
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    margin-left: 60px;
 }
 .navegacion nav{
     display: flex;
     justify-content: space-between;
 }
+.navegacion nav h3{
+    font-family: "Roboto_Bold";
+    font-size: 24px;
+}
 .navegacion hr{
-    color: var(--color-2);
+    background: var(--color-2);
+    height: 2px;
 }
 .div__logos {
-    background: green;
+    /* background: green; */
     display: flex;
     gap: 30px;
-    align-items: flex-end
+    align-items: flex-end;
+    margin-left: 212px;
+
 }
 .div__logos img{
     width: 34px;
