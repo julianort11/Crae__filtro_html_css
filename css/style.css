@@ -64,7 +64,7 @@ header{
     width: 34px;
     height: 34px;
 }
-/********** main ************************/
+/********** inicio ************************/
 main{
     /* background: red; */
     padding: 20px;
@@ -226,4 +226,57 @@ main{
     /* background: blueviolet; */
     width: 162px;
     height: 162px;
+}
+/*********** apoyanos *************/
+.article__apoyanos {
+    background: palegreen;
+    padding: 20px;
+    height: 508px;
+}
+.section__apoyanos {
+    background: blue;
+    display: flex;
+    justify-content: space-between;
+}
+.div__apoy-inf {
+    background: green;
+    width: 755px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+.div__apoy-inf h2{
+    font-family: "Roboto_Bold";
+    font-size: 72px;
+}
+.div__apoy-inf span{
+    font-family: "Roboto_Regular";
+    font-size: 36px;
+}
+.img__botton {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px;
+    width: 375px;
+    height: 305px;
+}
+.img__botton img{
+    width: 375px;
+    height: 305px;
+}
+.botton {
+    background: greenyellow;
+    width: 282px;
+    height: 57px;
+    border-radius: 32.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.botton h4{
+    font-family: "Roboto_Bold";
+    font-size: 36px;
 }
