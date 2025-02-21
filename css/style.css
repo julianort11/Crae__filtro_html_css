@@ -159,3 +159,71 @@ main{
     height: 54.36px;
 }
 /*********** como jugar **************/
+.article__como-jugar {
+    /* background: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.como__title {
+    /* background: blanchedalmond; */
+    width: 654px;
+    height: 258px;
+}
+.como__info {
+    /* background: yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 41px;
+}
+.como__info h2{
+    font-family: "Roboto_Bold";
+    font-size: 64px;
+}
+.como__info span{
+    font-family: "Roboto_Regular";
+    font-size: 36px;
+}
+.section__list {
+    /* background: blue; */
+    /* padding: 20px; */
+    display: flex;
+    flex-direction: column;
+}
+.div__info_princ {
+    /* background: pink; */
+    padding-top: 41px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.div__circle {
+    background: var(--color-2);
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto_Bold";
+    font-size: 64px;
+    color: var(--color-1);
+}
+.div__info-list {
+    /* background: palegreen; */
+    width: 762px;
+    height: 187px;
+    display: flex;
+    font-family: "Roboto_Regular";
+    font-size: 28px;
+}
+.div__picture {
+    /* background: blueviolet; */
+    width: 162px;
+    height: 162px;
+}
