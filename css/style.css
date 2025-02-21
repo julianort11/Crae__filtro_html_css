@@ -64,3 +64,62 @@ header{
     width: 34px;
     height: 34px;
 }
+/********** main ************************/
+main{
+    background: red;
+    padding: 20px;
+}
+.article__info {
+    background: green;
+    display: flex;
+}
+.section__title {
+    background: violet;
+    width: 707px;
+    height: 592px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.section__title img{
+    width: 707px;
+    height: 391px;
+}
+.div__info {
+    background: pink;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.div__info h2{
+    font-family: "Roboto_Regular";
+    font-size: 56.4px;
+}
+.div__info p{
+    font-family: "Roboto_Regular";
+    font-size: 26px;
+}
+.section__logos {
+    background: yellow;
+    width: 494.01px;
+    height: 541px;
+    padding: 20px;
+}
+.div__princ-logo {
+    background: blue;
+    display: flex;
+    flex-direction: column;
+}
+.div__sec-logo{
+    background: rebeccapurple;
+    display: flex;
+}
+.div__shop {
+    background: bisque;
+}
+.div__redes {
+    
+    background: yellowgreen;
+    display: flex;
+    flex-direction: column-reverse;
+}
