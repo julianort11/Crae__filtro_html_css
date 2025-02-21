@@ -322,8 +322,6 @@ main{
     padding: 20px;
 }
 .img {
-    /* background: yellowgreen; */
-
 }
 .aqua {
     /* background: yellow; */
@@ -337,4 +335,28 @@ main{
 .aqua img{
     width: 82px;
     height: 80px;
+}
+/************fother************/
+.foother {
+    background: var(--color-2);
+    width: 1440px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.fecha__footer {
+    /* background: green; */
+    padding-left: 48px;
+    display: flex;
+    align-items: center;
+}
+.fecha__footer span{
+    font-family: "Roboto_Regular";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.Creador {
+    /* background: blue; */
+    color: var(--fother);
+    font-size: 24px;
 }
