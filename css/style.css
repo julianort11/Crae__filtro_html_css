@@ -66,15 +66,16 @@ header{
 }
 /********** main ************************/
 main{
-    background: red;
+    /* background: red; */
     padding: 20px;
 }
-.article__info {
-    background: green;
+.article__inicio {
+    /* background: green; */
     display: flex;
+    justify-content: space-around;
 }
 .section__title {
-    background: violet;
+    /* background: violet; */
     width: 707px;
     height: 592px;
     display: flex;
@@ -86,7 +87,7 @@ main{
     height: 391px;
 }
 .div__info {
-    background: pink;
+    /* background: pink; */
     display: flex;
     flex-direction: column;
     gap: 13px;
@@ -100,26 +101,60 @@ main{
     font-size: 26px;
 }
 .section__logos {
-    background: yellow;
-    width: 494.01px;
-    height: 541px;
-    padding: 20px;
+    /* background: yellow; */
+    width: 578px;
+    height: 546px;
+    /* padding-left: 20px; */
 }
 .div__princ-logo {
-    background: blue;
+    /* background: blue; */
     display: flex;
     flex-direction: column;
 }
-.div__sec-logo{
-    background: rebeccapurple;
+.div__princ-logo img{
+    width: 463.12px;
+    height: 487.07px;
+}
+.more__info{
+    /* background: green; */
     display: flex;
+    justify-content: space-between;
+}
+.div__sec-logo{
+    background: var(--color-2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    width: 249px;
+    height: 59px;
+    border-radius: 31.5px;
+    gap: 7px;
+}
+.div__sec-logo img{
+    width: 30px;
+    height: 30px;
 }
 .div__shop {
-    background: bisque;
+    /* background: bisque; */
+    display: flex;
+    align-items: center;
+    font-family: "Roboto_Bold";
+    font-size: 40px;
+    color: var(--color-1);
 }
 .div__redes {
-    
-    background: yellowgreen;
+    /* background: yellowgreen; */
+    width: 82px;
+    height: 218px;
     display: flex;
-    flex-direction: column-reverse;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -160px;
+    gap: 10px;
+}
+.div__redes img {
+    width: 50px;
+    height: 54.36px;
 }
